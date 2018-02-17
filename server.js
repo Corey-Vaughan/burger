@@ -24,6 +24,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 var routes = require("./controllers/burgers_controller.js");
 
-app.use("/". routes);
+app.use("/", routes);
 
 app.listen(PORT);
